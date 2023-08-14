@@ -1,4 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=cbcbcb&height=180&section=header&text=Yuri+L. Rodrigues&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=35"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=cbcbcb&height=180&section=header&text=Yuri+L.+Rodrigues&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=35"/> 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=fff&size=35&center=true&vCenter=true&width=1000&lines=Hello,+my+name+is+Yuri+Leite+Rodrigues;I'm+19+years+old;I'm+naturally+Brazilian,+MG+;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
