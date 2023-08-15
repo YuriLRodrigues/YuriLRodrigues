@@ -76,7 +76,7 @@
 ![Node.js](https://img.shields.io/badge/-node-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![MongoDB](https://img.shields.io/badge/-mongoDb-0D1117?style=for-the-badge&logo=mongodb&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![express](https://img.shields.io/badge/-express-0D1117?style=for-the-badge&logo=express&labelColor=0D1117&textColor=0D1117)&nbsp;
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![next](https://img.shields.io/badge/-next-0D1117?style=for-the-badge&logo=next.js&labelColor=0D1117&textColor=0D1117)&nbsp;
 <hr />
 <div align="center">
   <br>
