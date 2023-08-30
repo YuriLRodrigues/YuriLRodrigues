@@ -14,7 +14,6 @@
 
 ### About Me:
 
-<img align="right" src="L-smile.gif" border="2" width="30%" height="100%" alt="L sentado em frente a um monitor em um quarto escuro" />
 <ul>
   <li>🤩️ Passionate about Programming, Music and Cars.</li>
   <li>💻 <b>Graduated</b> as a <b>Computer Technician</b> at <a href="https://www.linkedin.com/school/senacminas/" target="_blank">Senac Minas</a>. I'm currently <b>student</b> of the <a href="https://www.linkedin.com/school/onebitcode/" target="_blank">OneBitCode</a> carrer plataform.</li>
