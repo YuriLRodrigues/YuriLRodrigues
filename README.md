@@ -47,12 +47,10 @@
 
 ### Other Knowledge:
 
-![React Native](https://img.shields.io/badge/-React_Native-0D1117?style=for-the-badge&logo=react&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![MongoDB](https://img.shields.io/badge/-mongoDb-0D1117?style=for-the-badge&logo=mongodb&labelColor=0D1117&textColor=0D1117)&nbsp;
 
 ![reacthookform](https://img.shields.io/badge/-reacthookform-0D1117?style=for-the-badge&logo=reacthookform&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![reactrouter](https://img.shields.io/badge/React_Router-0D1117?style=for-the-badge&logo=react-router&labelColor=0D1117&textColor=0D1117)&nbsp;
-![Redux](https://img.shields.io/badge/-redux-0D1117?style=for-the-badge&logo=redux&logoColor=795696&labelColor=0D1117)&nbsp;
 ![reactquery](https://img.shields.io/badge/-reactquery-0D1117?style=for-the-badge&logo=reactquery&labelColor=0D1117&textColor=0D1117)&nbsp;
 
 ![sass](https://img.shields.io/badge/-sass-0D1117?style=for-the-badge&logo=sass&labelColor=0D1117&textColor=0D1117)&nbsp;
