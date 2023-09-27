@@ -73,7 +73,7 @@
 ![express](https://img.shields.io/badge/-express-0D1117?style=for-the-badge&logo=express&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![next](https://img.shields.io/badge/-next-0D1117?style=for-the-badge&logo=next.js&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![tailwindcss](https://img.shields.io/badge/-tailwindcss-0D1117?style=for-the-badge&logo=tailwindcss&labelColor=0D1117&textColor=0D1117)&nbsp;
-![prisma](https://img.shields.io/badge/-prisma-0D1117?style=for-the-badge&logo=tailwindcss&labelColor=0D1117&textColor=0D1117)&nbsp;
+![prisma](https://img.shields.io/badge/-prisma-0D1117?style=for-the-badge&logo=prisma&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![jest](https://img.shields.io/badge/-jest-0D1117?style=for-the-badge&logo=jest&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![cypress](https://img.shields.io/badge/-cypress-0D1117?style=for-the-badge&logo=cypress&labelColor=0D1117&textColor=0D1117)&nbsp;
 
