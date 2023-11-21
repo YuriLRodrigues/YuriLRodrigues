@@ -78,6 +78,7 @@
 ![jest](https://img.shields.io/badge/-jest-0D1117?style=for-the-badge&logo=jest&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![cypress](https://img.shields.io/badge/-cypress-0D1117?style=for-the-badge&logo=cypress&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![nest.js](https://img.shields.io/badge/-nest-0D1117?style=for-the-badge&logo=nestjs&labelColor=0D1117&textColor=0D1117)&nbsp;
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 <hr />
 <div align="center">
