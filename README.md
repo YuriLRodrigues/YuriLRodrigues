@@ -35,7 +35,7 @@
 ![next](https://img.shields.io/badge/-next-0D1117?style=for-the-badge&logo=next.js&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![tailwindcss](https://img.shields.io/badge/-tailwindcss-0D1117?style=for-the-badge&logo=tailwindcss&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![prisma](https://img.shields.io/badge/-prisma-0D1117?style=for-the-badge&logo=prisma&labelColor=0D1117&textColor=0D1117)&nbsp;
-![vitest](https://img.shields.io/badge/-vite-0D1117?style=for-the-badge&logo=vite&labelColor=0D1117&textColor=0D1117)&nbsp;
+![vitest](https://img.shields.io/badge/-vitest-0D1117?style=for-the-badge&logo=vite&labelColor=0D1117&textColor=0D1117)&nbsp;
 
 
 ### Tools:
