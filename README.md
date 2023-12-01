@@ -42,6 +42,10 @@
 
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC&labelColor=0D1117)&nbsp;
 ![insomnia](https://img.shields.io/badge/-insomnia-0D1117?style=for-the-badge&logo=insomnia&labelColor=0D1117&textColor=0D1117)&nbsp;
+![jira](https://img.shields.io/badge/-jira-0D1117?style=for-the-badge&logo=jira&labelColor=0D1117&textColor=0D1117)&nbsp;
+![trello](https://img.shields.io/badge/-trello-0D1117?style=for-the-badge&logo=trello&labelColor=0D1117&textColor=0D1117)&nbsp;
+![notion](https://img.shields.io/badge/-notion-0D1117?style=for-the-badge&logo=notion&labelColor=0D1117&textColor=0D1117)&nbsp;
+![eslint](https://img.shields.io/badge/-eslint-0D1117?style=for-the-badge&logo=eslint&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![git](https://img.shields.io/badge/-git-0D1117?style=for-the-badge&logo=git&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Windows](https://img.shields.io/badge/-Windows-0D1117?style=for-the-badge&logo=windows&labelColor=0D1117)&nbsp;
@@ -67,7 +71,7 @@
 
 ![jest](https://img.shields.io/badge/-jest-0D1117?style=for-the-badge&logo=jest&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![MongoDB](https://img.shields.io/badge/-mongoDb-0D1117?style=for-the-badge&logo=mongodb&labelColor=0D1117&textColor=0D1117)&nbsp;
-![postgresql](https://img.shields.io/badge/-postgres-0D1117?style=for-the-badge&logo=postgresql&labelColor=0D1117&textColor=0D1117)&nbsp;
+![postgresql](https://img.shields.io/badge/-postgresql-0D1117?style=for-the-badge&logo=postgresql&labelColor=0D1117&textColor=0D1117)&nbsp;
 
 
 ![npm](https://img.shields.io/badge/-npm-0D1117?style=for-the-badge&logo=npm&labelColor=0D1117&textColor=0D1117)&nbsp;
