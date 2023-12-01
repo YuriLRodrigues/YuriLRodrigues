@@ -56,7 +56,7 @@
 
 
 
-![css](https://img.shields.io/badge/-css-0D1117?style=for-the-badge&logo=css&labelColor=0D1117&textColor=0D1117)&nbsp;
+![css3](https://img.shields.io/badge/-css3-0D1117?style=for-the-badge&logo=css3&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![bootstrap](https://img.shields.io/badge/-bootstrap-0D1117?style=for-the-badge&logo=bootstrap&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![sass](https://img.shields.io/badge/-sass-0D1117?style=for-the-badge&logo=sass&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![styledcomponents](https://img.shields.io/badge/-styled_components-0D1117?style=for-the-badge&logo=styledcomponents&labelColor=0D1117&textColor=0D1117)&nbsp;
