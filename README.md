@@ -93,10 +93,9 @@
 ![Axios](https://img.shields.io/badge/-Axios-0D1117?style=for-the-badge&logo=json&labelColor=0D1117)&nbsp;
 ![Wratch](https://img.shields.io/badge/-Wratch-0D1117?style=for-the-badge&logo=json&labelColor=0D1117)&nbsp;
 
-### Code Standards
+### Code Standards:
 ![Clean Architecture](https://img.shields.io/badge/-Clean%20Architecture-0D1117?style=for-the-badge&logo=json&labelColor=0D1117)&nbsp;
-![DDD](https://img.shields.io/badge/-DDD-0D1117?style=for-the-badge&logo=json&labelColor=0D1117)&nbsp;
-
+![TDD](https://img.shields.io/badge/-TDD-0D1117?style=for-the-badge&logo=json&labelColor=0D1117)&nbsp;
 
 
 ### Studying in this moment:
