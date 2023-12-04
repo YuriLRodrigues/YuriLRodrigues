@@ -86,7 +86,7 @@
 ![npm](https://img.shields.io/badge/-npm-0D1117?style=for-the-badge&logo=npm&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![nodemon](https://img.shields.io/badge/-nodemon-0D1117?style=for-the-badge&logo=nodemon&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![express](https://img.shields.io/badge/-express-0D1117?style=for-the-badge&logo=express&labelColor=0D1117&textColor=0D1117)&nbsp;
-![jwt](https://img.shields.io/badge/-passport%20RS256%20JWT-0D1117?style=for-the-badge&logo=JSON&labelColor=0D1117&textColor=0D1117)&nbsp;
+![jwt](https://img.shields.io/badge/-passport%20RS256%20JWT-0D1117?style=for-the-badge&logo=JSON%20web%20tokens&labelColor=0D1117&textColor=0D1117)&nbsp;
 
 
 ![Fetch](https://img.shields.io/badge/-Fetch-0D1117?style=for-the-badge&logo=json&labelColor=0D1117)&nbsp;
