@@ -4,7 +4,7 @@
 
 <div align="center">  
  
-![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=yurilrodrigues\&theme=dark&layout=compact)
+![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=yurilrodrigues\&theme=dark&layout=compact&langs_count=6)
 <img width="60%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs?username=yurilrodrigues&layout=compact&theme=dark&langs_count=8&card_width=320"/>
 </div>
 <div align="center">  
