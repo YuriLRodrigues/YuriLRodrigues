@@ -6,6 +6,8 @@
  
 ![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=yurilrodrigues\&theme=dark&layout=compact&langs_count=6)
 <img width="60%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs?username=yurilrodrigues&layout=compact&theme=dark&langs_count=8&card_width=320"/>
+<img width="60%" height="195px" src="https://github-readme-stats.vercel.app/api?username=YuriLRodrigues&layout=compact&theme=dark&langs_count=8&card_width=320"/>
+
 </div>
 <div align="center">  
 <a href="https://www.instagram.com/yuri_rzz7/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
