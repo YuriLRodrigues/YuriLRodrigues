@@ -19,7 +19,6 @@
 
 <ul>
   <li>🤩️ Passionate about Programming, Music and Cars.</li>
-  <li>💻 <b>Graduated</b> as a <b>Computer Technician</b> at <a href="https://www.linkedin.com/school/senacminas/" target="_blank">Senac Minas</a>. I'm currently <b>student</b> of the <a href="https://www.linkedin.com/school/onebitcode/" target="_blank">OneBitCode</a> carrer plataform.</li>
   <li>🚀 I'm specializing in Front-end, but my long-term goal is to become Full-Stack.</li>
   <li>💠 Continuously evolving <strong>React.js</strong> and its ecosystem.</li>
 </ul>
