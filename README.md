@@ -12,11 +12,7 @@
   <img width="300px" src="https://github-readme-stats.vercel.app/api/top-langs?username=yurilrodrigues&layout=compact&theme=dark&langs_count=8&card_width=320" />
 </p>
  
-<div>
-<img align="right" alt="GitHub Details" width="420px" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ItaloAraujodev&theme=github_dark"/>
-<img alt="GitHub Stats" width="200px" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=ItaloAraujodev&theme=github_dark"/>
-<img alt="GitHub Top Langs" width="200px" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ItaloAraujodev&theme=github_dark"/>
-</div>
+
 
 <div align="center">  
 <a href="https://www.instagram.com/yuri_rzz7/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
