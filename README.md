@@ -2,13 +2,22 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=fff&size=35&center=true&vCenter=true&width=1000&lines=Hello,+my+name+is+Yuri+Leite+Rodrigues;I'm+20+years+old;I'm+naturally+Brazilian,+MG+;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
-<div align="center">  
- 
-![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=yurilrodrigues\&theme=dark&layout=compact&langs_count=6)
-<img width="60%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs?username=yurilrodrigues&layout=compact&theme=dark&langs_count=8&card_width=320"/>
-<img width="60%" height="195px" src="https://github-readme-stats.vercel.app/api?username=YuriLRodrigues&layout=compact&theme=dark&langs_count=8&card_width=320"/>
-
+<div align="center">
+  <img width="450px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YuriLRodrigues&theme=github_dark" />
+  <img width="450px" src="https://github-readme-stats.vercel.app/api/wakatime?username=yurilrodrigues&theme=dark&layout=compact&langs_count=6" />
+  <br />
 </div>
+<p align="center">
+   <img width="305px" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YuriLRodrigues&theme=github_dark" />
+  <img width="300px" src="https://github-readme-stats.vercel.app/api/top-langs?username=yurilrodrigues&layout=compact&theme=dark&langs_count=8&card_width=320" />
+</p>
+ 
+<div>
+<img align="right" alt="GitHub Details" width="420px" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ItaloAraujodev&theme=github_dark"/>
+<img alt="GitHub Stats" width="200px" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=ItaloAraujodev&theme=github_dark"/>
+<img alt="GitHub Top Langs" width="200px" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ItaloAraujodev&theme=github_dark"/>
+</div>
+
 <div align="center">  
 <a href="https://www.instagram.com/yuri_rzz7/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/yuri-leite-rodrigues/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
