@@ -1,4 +1,4 @@
-<a href="https://yurilrodrigues.github.io/portfolio-v3/"><img src="./assets/banner.png" alt="Yuri Leite Rodrigues · Desenvolvedor Full Stack Pleno na Agência Molla" width="100%" /></a>
+<a href="https://yurilrodrigues.github.io/portfolio-v3/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/banner.png" /><img src="./assets/banner-claro.png" alt="Yuri Leite Rodrigues · Desenvolvedor Full Stack Pleno na Agência Molla" width="100%" /></picture></a>
 
 <p align="center">
   <a href="https://yurilrodrigues.github.io/portfolio-v3/"><img alt="Portfólio" src="https://img.shields.io/badge/Portf%C3%B3lio-ff6b2c?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMTIgMmExNC41IDE0LjUgMCAwIDAgMCAyMCAxNC41IDE0LjUgMCAwIDAgMC0yMCIvPjxwYXRoIGQ9Ik0yIDEyaDIwIi8%2BPC9zdmc%2B&logoColor=white" /></a>
@@ -13,7 +13,7 @@ Sou desenvolvedor full stack pleno na [Agência Molla](https://www.linkedin.com/
 
 ### O que construí em 2026
 
-<img src="./assets/numeros-2026.png" alt="2026 em números: cerca de 3 anos de experiência, pleno na Molla com mais de 10 projetos em produção, 21 mil agentes no Agente Tá On, menos de 10 dias para lançar um projeto com o template e as docs, mais de 3 mil testes no backend do template e o novo site da Molla, multilíngue" width="100%" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/numeros-2026.png" /><img src="./assets/numeros-2026-claro.png" alt="2026 em números: cerca de 3 anos de experiência, pleno na Molla com mais de 10 projetos em produção, 21 mil agentes no Agente Tá On, menos de 10 dias para lançar um projeto com o template e as docs, mais de 3 mil testes no backend do template e o novo site da Molla, multilíngue" width="100%" /></picture>
 
 Projetos da Molla, em repositórios privados:
 
@@ -26,32 +26,32 @@ Projetos da Molla, em repositórios privados:
 ### Open source e produtos
 
 <p>
-  <a href="https://github.com/YuriLRodrigues/turbo-repo-template"><img src="./assets/capa-turbo-repo-template.png" alt="turbo-repo-template: monorepo full stack com API NestJS + Drizzle, web Next.js 16, landing multilíngue e design system" width="49%" /></a>
-  <a href="https://github.com/YuriLRodrigues/nestjs-drizzle-clean-architecture"><img src="./assets/capa-nestjs-drizzle.png" alt="NestJS + Drizzle com Clean Architecture: camadas garantidas por lint, testes E2E contra Postgres e skills do Claude Code" width="49%" /></a>
-  <a href="https://github.com/YuriLRodrigues/nextjs-shadcn-orval-template"><img src="./assets/card-nextjs-shadcn-orval.png" alt="nextjs-shadcn-orval-template: front Next.js 16 com shadcn/ui e client gerado do OpenAPI" width="49%" /></a>
-  <a href="https://github.com/YuriLRodrigues/nitro-hub"><img src="./assets/card-nitro-hub.png" alt="NITRO HUB: app grátis para Windows 10 e 11 com overlay de FPS, Modo jogo, sensores e otimizações com desfazer" width="49%" /></a>
+  <a href="https://github.com/YuriLRodrigues/turbo-repo-template"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-turbo-repo-template.png" /><img src="./assets/card-turbo-repo-template-claro.png" alt="turbo-repo-template: monorepo com API NestJS + Drizzle, web Next.js 16, landing multilíngue e design system" width="49%" /></picture></a>
+  <a href="https://github.com/YuriLRodrigues/nestjs-drizzle-clean-architecture"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-nestjs-drizzle.png" /><img src="./assets/card-nestjs-drizzle-claro.png" alt="nestjs-drizzle-clean-architecture: API NestJS + Drizzle em camadas, com as regras no lint e testes E2E contra Postgres" width="49%" /></picture></a>
+  <a href="https://github.com/YuriLRodrigues/nextjs-shadcn-orval-template"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-nextjs-shadcn-orval.png" /><img src="./assets/card-nextjs-shadcn-orval-claro.png" alt="nextjs-shadcn-orval-template: front Next.js 16 com shadcn/ui e client gerado do OpenAPI" width="49%" /></picture></a>
+  <a href="https://github.com/YuriLRodrigues/nitro-hub"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-nitro-hub.png" /><img src="./assets/card-nitro-hub-claro.png" alt="NITRO HUB: app grátis para Windows 10 e 11 com overlay de FPS, Modo jogo, sensores e otimizações com desfazer" width="49%" /></picture></a>
 </p>
 
 Os templates vêm com `CLAUDE.md` e skills do Claude Code que conhecem os padrões do projeto, e a [landing page dos templates](https://github.com/YuriLRodrigues/lp-fullstack-template) apresenta o par NestJS + Next.js. O NITRO HUB tem código fechado: o repositório guarda os instaladores, e o app se atualiza sozinho pelas [releases](https://github.com/YuriLRodrigues/nitro-hub/releases).
 
 ### Como eu trabalho
 
-<img src="./assets/como-eu-trabalho.png" alt="Como eu trabalho: regra de negócio antes da tela, começar do template, o agente de IA segue o padrão do projeto e teste onde a regra mexe com prêmio" width="100%" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/como-eu-trabalho.png" /><img src="./assets/como-eu-trabalho-claro.png" alt="Como eu trabalho: regra de negócio antes da tela, começar do template, o agente de IA segue o padrão do projeto e teste onde a regra mexe com prêmio" width="100%" /></picture>
 
 ### Projetos pessoais
 
 <p>
-  <a href="https://github.com/YuriLRodrigues/workout-tracker"><img src="./assets/card-workout-tracker.png" alt="Workout Tracker: treinos, séries e evolução em gráficos, com API NestJS em camadas" width="49%" /></a>
-  <a href="https://github.com/YuriLRodrigues/autocars-frontend"><img src="./assets/card-autocars.png" alt="AutoCars: classificados com busca, favoritos e painel do vendedor" width="49%" /></a>
-  <a href="https://github.com/YuriLRodrigues/fincheck"><img src="./assets/card-fincheck.png" alt="Fincheck: finanças pessoais com contas, entradas e saídas" width="49%" /></a>
-  <a href="https://github.com/YuriLRodrigues/setup-pro-store"><img src="./assets/card-setup-pro-store.png" alt="Setup Pro Store: loja de periféricos com checkout na Stripe" width="49%" /></a>
+  <a href="https://github.com/YuriLRodrigues/workout-tracker"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-workout-tracker.png" /><img src="./assets/card-workout-tracker-claro.png" alt="Workout Tracker: treinos, séries e evolução em gráficos, com API NestJS em camadas" width="49%" /></picture></a>
+  <a href="https://github.com/YuriLRodrigues/autocars-frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-autocars.png" /><img src="./assets/card-autocars-claro.png" alt="AutoCars: classificados com busca, favoritos e painel do vendedor" width="49%" /></picture></a>
+  <a href="https://github.com/YuriLRodrigues/fincheck"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-fincheck.png" /><img src="./assets/card-fincheck-claro.png" alt="Fincheck: finanças pessoais com contas, entradas e saídas" width="49%" /></picture></a>
+  <a href="https://github.com/YuriLRodrigues/setup-pro-store"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-setup-pro-store.png" /><img src="./assets/card-setup-pro-store-claro.png" alt="Setup Pro Store: loja de periféricos com checkout na Stripe" width="49%" /></picture></a>
 </p>
 
 As APIs do Workout Tracker e do AutoCars ficam em [workout-tracker-api](https://github.com/YuriLRodrigues/workout-tracker-api) e [autocars-backend](https://github.com/YuriLRodrigues/autocars-backend).
 
 ### Stack
 
-<img src="./assets/stack.png" alt="Stack: Next.js, React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Query, Router, Start, Table e Virtual, NestJS, Node.js, PostgreSQL, Drizzle, Prisma, Redis, BullMQ, Vitest, Playwright, Docker, GitHub Actions, Turborepo, AWS e Claude Code" width="100%" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack.png" /><img src="./assets/stack-claro.png" alt="Stack: Next.js, React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Query, Router, Start, Table e Virtual, NestJS, Node.js, PostgreSQL, Drizzle, Prisma, Redis, BullMQ, Vitest, Playwright, Docker, GitHub Actions, Turborepo, AWS e Claude Code" width="100%" /></picture>
 
 ### Contribuições
 
