@@ -1,24 +1,38 @@
 <img src="./assets/banner.png" alt="Yuri Leite Rodrigues · Desenvolvedor Full Stack Pleno" width="100%" />
 
-Desenvolvedor full stack pleno na [Agência Molla](https://www.linkedin.com/company/15158549/). Construo plataformas de incentivo B2B do banco de dados ao deploy: SSO, portais de campanha, apuração de pontos, rankings e dashboards, com Next.js, NestJS e PostgreSQL.
+Gosto de sistema que aguenta o dia da apuração: a base nova do cliente chega, o ranking recalcula e quem está usando o portal nem percebe.
 
-[Portfólio](https://yurilrodrigues.github.io/portfolio-v3/) · [LinkedIn](https://www.linkedin.com/in/yuri-leite-rodrigues/) · [E-mail](mailto:rodriguesyuri769@gmail.com)
+Sou desenvolvedor full stack pleno na [Agência Molla](https://www.linkedin.com/company/15158549/), onde construo plataformas de incentivo B2B do banco de dados ao deploy, com Next.js, NestJS e PostgreSQL. Voltei para a Molla em março de 2026 e fui promovido a pleno quatro meses depois.
 
-### O que faço hoje
+[Portfólio](https://yurilrodrigues.github.io/portfolio-v3/) · [Currículo (PDF)](https://yurilrodrigues.github.io/portfolio-v3/curriculo.pdf) · [LinkedIn](https://www.linkedin.com/in/yuri-leite-rodrigues/) · [E-mail](mailto:rodriguesyuri769@gmail.com)
 
-- Respondo por mais de 10 programas de incentivo em produção, para marcas como Azul, Farmax e Combrasil.
-- Levei o template de incentivo da agência para um monorepo em Turborepo, com API, portal, dashboard e um pacote de UI compartilhado. Com as regras do cliente definidas, um programa novo vai ao ar em cerca de 10 dias.
-- Uso IA todo dia no desenvolvimento: Claude Code, skills e documentação que fazem os agentes seguirem o padrão do projeto.
+### O que construí em 2026
 
-### Templates open source
+Projetos da Molla, em repositórios privados:
+
+- **Hub Azul**: transformei o portal de uma campanha no login único de todas as campanhas da Azul, com SSO em OpenID Connect, carteira de moedas, resgates e treinamentos.
+- **Agente Tá On**: portal de incentivo para cerca de 21 mil agentes de viagem, com ranking recalculado a cada 30 minutos e carga de dados que não deixa o portal vazio.
+- **Template de incentivo**: levei o template da agência para um monorepo em Turborepo, com API, portal, dashboard e um pacote de UI compartilhado. Com as regras do cliente definidas, um programa novo vai ao ar em cerca de 10 dias.
+- **Nova landing page da Molla**: em português, inglês e espanhol, com a seção de DNA em que Trade, Marketing e Vendas se trançam numa hélice conforme a rolagem.
+- **Documentação técnica** de sete projetos gerada a partir do código: regras de negócio x banco de dados e todas as rotinas automáticas.
+
+### Como eu trabalho
+
+- Regra de negócio e modelo de dados antes da tela.
+- Projeto novo começa de um template com padrões escritos, não do zero.
+- Uso Claude Code todo dia, com skills e documentação que fazem os agentes seguirem o padrão do projeto. O agente acelera; a revisão e a decisão continuam comigo.
+- Teste onde a regra mexe com ponto e prêmio.
+
+### Open source
 
 | Repositório | O que é |
 | --- | --- |
 | [nestjs-drizzle-clean-architecture](https://github.com/YuriLRodrigues/nestjs-drizzle-clean-architecture) | API NestJS + Drizzle com Clean Architecture, camadas garantidas por lint e testes unitários, de integração e E2E contra Postgres. |
 | [nextjs-shadcn-orval-template](https://github.com/YuriLRodrigues/nextjs-shadcn-orval-template) | Front Next.js 16 com shadcn/ui, Server Actions e client da API gerado do OpenAPI. Funciona em par com o template acima. |
 | [lp-fullstack-template](https://github.com/YuriLRodrigues/lp-fullstack-template) | Landing page que apresenta os dois templates, em português e inglês. |
+| [portfolio-v3](https://github.com/YuriLRodrigues/portfolio-v3) | Este portfólio: Next.js 16 estático no GitHub Pages, português e inglês, layout com container queries. |
 
-Todos vêm com `CLAUDE.md` e skills do Claude Code que conhecem os padrões do projeto.
+Os templates vêm com `CLAUDE.md` e skills do Claude Code que conhecem os padrões do projeto.
 
 ### Projetos pessoais
 
