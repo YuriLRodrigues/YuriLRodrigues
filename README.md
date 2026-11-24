@@ -27,6 +27,7 @@ Projetos da Molla, em repositórios privados:
 
 | Repositório | O que é |
 | --- | --- |
+| [turbo-repo-template](https://github.com/YuriLRodrigues/turbo-repo-template) | Monorepo em Turborepo para começar um produto: API NestJS + Drizzle, web Next.js 16, landing em três idiomas e um design system com tokens, primitivos do Base UI e gráficos. Sobe com `npm install` e `npm run dev`, sem Docker nem `.env`. |
 | [nestjs-drizzle-clean-architecture](https://github.com/YuriLRodrigues/nestjs-drizzle-clean-architecture) | API NestJS + Drizzle com Clean Architecture, camadas garantidas por lint e testes unitários, de integração e E2E contra Postgres. |
 | [nextjs-shadcn-orval-template](https://github.com/YuriLRodrigues/nextjs-shadcn-orval-template) | Front Next.js 16 com shadcn/ui, Server Actions e client da API gerado do OpenAPI. Funciona em par com o template acima. |
 | [lp-fullstack-template](https://github.com/YuriLRodrigues/lp-fullstack-template) | Landing page que apresenta os dois templates, em português e inglês. |
