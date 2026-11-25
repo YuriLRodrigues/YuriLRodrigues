@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=block" rel="stylesheet">
+<script>
+  // ?claro gera a versão para o tema claro do GitHub.
+  window.CLARO = new URLSearchParams(location.search).has("claro");
+  if (CLARO) document.documentElement.classList.add("claro");
+</script>
+<script src="dados.js"></script>
+<style>
+  /* "Tempo de código": arte do README com os dados públicos do WakaTime (gerar.py). Base 880x300, renderizada em 2x. */
+  :root {
+    --bg: #08080b;
+    --text: #f4f4f5;
+    --muted: #a1a1aa;
+    --dim: #71717a;
+    --borda: rgba(255, 255, 255, 0.09);
+    --texto-2: #d4d4d8;
+    --grade: rgba(255, 255, 255, 0.05);
+  }
+  html.claro {
+    --bg: #fbfbfc;
+    --text: #09090b;
+    --muted: #52525b;
+    --dim: #71717a;
+    --borda: rgba(9, 9, 11, 0.09);
+    --texto-2: #3f3f46;
+    --grade: rgba(9, 9, 11, 0.055);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 880px; height: 300px; overflow: hidden; background: var(--bg); }
+  body { position: relative; font-family: "Geist", system-ui, sans-serif; color: var(--text); -webkit-font-smoothing: antialiased; }
+  .mono { font-family: "Geist Mono", ui-monospace, monospace; }
+
+  /* Fundo: grade suave e brilhos de cor, como as outras imagens do perfil. */
+  .fundo { position: absolute; inset: 0; overflow: hidden; }
+  .fundo::before {
+    content: ""; position: absolute; inset: 0;
+    background-image: linear-gradient(to right, var(--grade) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--grade) 1px, transparent 1px);
+    background-size: 36px 36px;
+    mask-image: radial-gradient(70% 90% at 50% 40%, #000 15%, transparent 80%);
+  }
+  .brilho { position: absolute; border-radius: 50%; filter: blur(70px); }
+  html.claro .brilho { opacity: 0.16 !important; }
+  .ruido {
+    position: absolute; inset: 0; opacity: 0.09; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  html.claro .ruido { opacity: 0.04; }
+
+  .grade { position: absolute; inset: 18px; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 132px 1fr; gap: 12px; }
+  .t {
+    position: relative; overflow: hidden; border-radius: 14px; padding: 15px 18px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02));
+    border: 1px solid var(--borda);
+    display: flex; flex-direction: column;
+  }
+  .t::before { content: ""; position: absolute; left: 0; top: 16px; bottom: 16px; width: 3px; border-radius: 0 3px 3px 0; background: var(--c); }
+  .t::after { content: ""; position: absolute; right: -40px; top: -50px; width: 140px; height: 120px; border-radius: 50%; background: var(--c); opacity: 0.14; filter: blur(30px); }
+  html.claro .t { background: #ffffff; box-shadow: 0 1px 2px rgba(9, 9, 11, 0.04); }
+  .rot { display: flex; align-items: center; gap: 7px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--dim); }
+  .ico { display: inline-block; width: 13px; height: 13px; }
+  .ico svg { width: 100%; height: 100%; display: block; }
+  .n { margin-top: 6px; font-size: 34px; line-height: 1; font-weight: 800; letter-spacing: -0.035em; color: var(--text); }
+  .n small { font-size: 19px; font-weight: 700; letter-spacing: -0.02em; margin-left: 4px; color: var(--texto-2); }
+  .d { margin-top: 8px; font-size: 13px; line-height: 1.4; color: var(--muted); }
+
+  /* Card de cima: total e o mapa do último ano. */
+  .topo { grid-column: 1 / -1; flex-direction: row; align-items: stretch; gap: 26px; }
+  .resumo { flex: 1; display: flex; flex-direction: column; }
+  .resumo .n { font-size: 44px; margin-top: 8px; }
+  .resumo .n small { font-size: 22px; }
+  .resumo .d { max-width: 240px; }
+  .mapa { position: relative; z-index: 1; display: flex; flex-direction: column; }
+  .mapa-topo { display: flex; justify-content: space-between; align-items: center; margin-bottom: 7px; }
+  .legenda { display: flex; align-items: center; gap: 3px; font-size: 10px; color: var(--dim); }
+  .legenda i { width: 8px; height: 8px; border-radius: 2px; display: block; }
+  .legenda span { margin: 0 3px; }
+  .celulas { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 7.5px); grid-auto-columns: 7.5px; gap: 2.5px; }
+  .celulas i { border-radius: 2px; display: block; }
+  .meses { position: relative; height: 12px; margin-top: 6px; font-size: 10px; color: var(--dim); }
+  .meses span { position: absolute; top: 0; }
+
+  /* Faixas do WakaTime: 0, até 3 h, até 8 h, até 10 h, até 12 h e mais de 12 h.
+     Cores sólidas (já misturadas com o fundo do card) para a grade do fundo não aparecer através dos quadrados. */
+  .l0 { background: #222226; }
+  .l1 { background: #5a2d1d; }
+  .l2 { background: #a54a24; }
+  .l3 { background: #ff6b2c; }
+  .l4 { background: #ff3d7f; }
+  .l5 { background: #a066ff; }
+  html.claro .l0 { background: #ededee; }
+  html.claro .l1 { background: #ffcab3; }
+  html.claro .l2 { background: #ff9d74; }
+</style>
+</head>
+<body>
+  <div class="fundo">
+    <div class="brilho" style="width:420px;height:220px;left:-120px;top:-150px;background:#ff5a1f;opacity:.28"></div>
+    <div class="brilho" style="width:420px;height:220px;right:-120px;bottom:-160px;background:#7c3aed;opacity:.3"></div>
+    <div class="ruido"></div>
+  </div>
+  <div class="grade">
+    <div class="t topo" style="--c:#ff6b2c">
+      <div class="resumo">
+        <span class="rot mono"><span class="ico" id="logo"></span><span id="desde"></span></span>
+        <span class="n" id="total"></span>
+        <span class="d" id="media"></span>
+      </div>
+      <div class="mapa">
+        <div class="mapa-topo">
+          <span class="rot mono">Últimos 12 meses</span>
+          <span class="legenda mono"><span>menos</span><i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><i class="l5"></i><span>mais</span></span>
+        </div>
+        <div class="celulas" id="celulas"></div>
+        <div class="meses mono" id="meses"></div>
+      </div>
+    </div>
+    <div class="t" style="--c:#facc15">
+      <span class="rot mono">Ranking Brasil</span>
+      <!-- Fixo: o WakaTime não guarda o histórico do ranking. -->
+      <span class="n">Top 2<small>BR</small></span>
+      <span class="d">no ranking semanal de horas do WakaTime</span>
+    </div>
+    <div class="t" style="--c:#60a5fa">
+      <span class="rot mono">Linguagem</span>
+      <span class="n" id="ts"></span>
+      <span class="d" id="ts-d"></span>
+    </div>
+    <div class="t" style="--c:#2dd4bf">
+      <span class="rot mono">Constância</span>
+      <span class="n" id="ativos"></span>
+      <span class="d" id="ativos-d"></span>
+    </div>
+  </div>
+  <script>
+    const W = window.WAKA;
+    const fmt = (n) => n.toLocaleString("pt-BR");
+    const MES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+    const dia = (iso) => new Date(iso + "T12:00:00");
+
+    // Logo do WakaTime (Simple Icons, CC0).
+    const LOGO = "M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2.824a9.176 9.176 0 1 1 0 18.352 9.176 9.176 0 0 1 0-18.352zm5.097 5.058c-.327 0-.61.19-.764.45-1.025 1.463-2.21 3.162-3.288 4.706l-.387-.636a.897.897 0 0 0-.759-.439.901.901 0 0 0-.788.492l-.357.581-1.992-2.943a.897.897 0 0 0-.761-.446c-.514 0-.903.452-.903.96a1 1 0 0 0 .207.61l2.719 3.96c.152.272.44.47.776.47a.91.91 0 0 0 .787-.483c.046-.071.23-.368.314-.504l.324.52c-.035-.047.076.113.087.13.024.031.054.059.078.085.019.019.04.036.058.052.036.033.08.056.115.08.025.016.052.028.076.04.029.015.06.024.088.035.058.025.122.027.18.04.031.004.064.003.092.005.29 0 .546-.149.707-.36 1.4-2 2.842-4.055 4.099-5.849A.995.995 0 0 0 18 8.842c0-.508-.389-.96-.903-.96";
+    document.getElementById("logo").innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="${CLARO ? "#18181b" : "#ffffff"}" d="${LOGO}"/></svg>`;
+
+    const desde = dia(W.desde);
+    document.getElementById("desde").textContent = `WakaTime · desde ${MES[desde.getMonth()]}/${desde.getFullYear()}`;
+    document.getElementById("total").innerHTML = `${fmt(Math.floor(W.totalSegundos / 3600))}<small>horas</small>`;
+    // Minutos cortados, como o próprio WakaTime mostra.
+    const h = Math.floor(W.mediaSegundos / 3600), m = Math.floor((W.mediaSegundos % 3600) / 60);
+    document.getElementById("media").textContent = `de código registradas, com média de ${h}h${String(m).padStart(2, "0")} nos ${fmt(W.diasComCodigo)} dias em que programei`;
+
+    const ts = W.linguagens.find((l) => l.nome === "TypeScript");
+    document.getElementById("ts").innerHTML = `${Math.round(ts.pct)}%<small>TypeScript</small>`;
+    document.getElementById("ts-d").textContent = `${fmt(Math.floor(ts.segundos / 3600))} h, do front ao back e nos scripts`;
+
+    // Mapa: uma coluna por semana (domingo a sábado), como o gráfico de contribuições do GitHub.
+    const nivel = (s) => (s === 0 ? 0 : s <= 10800 ? 1 : s <= 28800 ? 2 : s <= 36000 ? 3 : s <= 43200 ? 4 : 5);
+    const celulas = document.getElementById("celulas");
+    const meses = document.getElementById("meses");
+    const inicio = dia(W.dias[0][0]).getDay();
+    for (let i = 0; i < inicio; i++) celulas.appendChild(document.createElement("b"));
+    let mesAnterior = -1;
+    W.dias.forEach(([data, segundos], i) => {
+      const c = document.createElement("i");
+      c.className = "l" + nivel(segundos);
+      celulas.appendChild(c);
+      const d = dia(data);
+      const coluna = Math.floor((i + inicio) / 7);
+      if (d.getDay() === 0 && d.getMonth() !== mesAnterior && d.getDate() <= 7) {
+        mesAnterior = d.getMonth();
+        if (coluna > 0) {
+          const s = document.createElement("span");
+          s.textContent = MES[d.getMonth()];
+          s.style.left = coluna * 10 + "px";
+          meses.appendChild(s);
+        }
+      }
+    });
+
+    // Constância: dias com código no último ano e a maior sequência.
+    let ativos = 0, seq = 0, maior = 0;
+    for (const [, s] of W.dias) { if (s > 0) { ativos++; seq++; maior = Math.max(maior, seq); } else seq = 0; }
+    document.getElementById("ativos").innerHTML = `${ativos}<small>dias</small>`;
+    document.getElementById("ativos-d").textContent = `com código no último ano; recorde de ${maior} seguidos`;
+  </script>
+</body>
+</html>

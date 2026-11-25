@@ -1,0 +1,47 @@
+# Atualiza toda segunda a arte "Tempo de código" do README com os dados públicos do WakaTime
+# e faz o commit das imagens novas em assets/.
+name: WakaTime
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "wakatime/**"
+      - ".github/workflows/wakatime.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wakatime
+
+jobs:
+  arte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gera as imagens
+        run: |
+          pip install pillow
+          python -P wakatime/gerar.py
+
+      - name: Commit das imagens novas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/wakatime.png assets/wakatime-claro.png
+          if git diff --cached --quiet; then
+            echo "Sem mudança nas imagens."
+            exit 0
+          fi
+          git commit -m "chore: atualiza os números do WakaTime"
+          git push

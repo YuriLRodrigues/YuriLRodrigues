@@ -53,6 +53,10 @@ As APIs do Workout Tracker e do AutoCars ficam em [workout-tracker-api](https://
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack.png" /><img src="./assets/stack-claro.png" alt="Stack: Next.js, React, TypeScript, Tailwind CSS, shadcn/ui, TanStack Query, Router, Start, Table e Virtual, NestJS, Node.js, PostgreSQL, Drizzle, Prisma, Redis, BullMQ, Vitest, Playwright, Docker, GitHub Actions, Turborepo, AWS e Claude Code" width="100%" /></picture>
 
+### Tempo de código
+
+<a href="https://wakatime.com/@YuriLRodrigues"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/wakatime.png" /><img src="./assets/wakatime-claro.png" alt="Tempo de código no WakaTime, atualizado toda semana: horas registradas desde agosto de 2023 com a média diária, mapa de atividade dos últimos 12 meses, top 2 no ranking semanal do Brasil, porcentagem do tempo em TypeScript e dias com código no último ano" width="100%" /></picture></a>
+
 ### Contribuições
 
 <picture>
