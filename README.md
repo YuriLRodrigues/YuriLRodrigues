@@ -13,7 +13,7 @@ Sou desenvolvedor full stack pleno na [Agência Molla](https://www.linkedin.com/
 
 ### O que construí em 2026
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/numeros-2026.png" /><img src="./assets/numeros-2026-claro.png" alt="2026 em números: cerca de 3 anos de experiência, pleno na Molla com mais de 10 projetos em produção, 21 mil agentes no Agente Tá On, menos de 10 dias para lançar um projeto com o template e as docs, mais de 3 mil testes no backend do template e o novo site da Molla, multilíngue" width="100%" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/numeros-2026.png" /><img src="./assets/numeros-2026-claro.png" alt="2026 em números: cerca de 3 anos de experiência, pleno na Molla com mais de 10 projetos em produção, 21 mil agentes no Agente Tá On, menos de 10 dias para lançar um projeto com o template e as docs, um design system com mais de 80 componentes e o novo site da Molla, multilíngue" width="100%" /></picture>
 
 Projetos da Molla, em repositórios privados:
 
