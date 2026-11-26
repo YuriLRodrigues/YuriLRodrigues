@@ -7,8 +7,6 @@
   <a href="mailto:rodriguesyuri769@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-18181b?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-Gosto de sistema que aguenta o dia da apuração: a base nova do cliente chega, o ranking recalcula e quem está usando o portal nem percebe.
-
 Sou desenvolvedor full stack pleno na [Agência Molla](https://www.linkedin.com/company/15158549/), onde construo plataformas de incentivo B2B do banco de dados ao deploy, com Next.js, NestJS e PostgreSQL. Voltei para a Molla em março de 2026 e fui promovido a pleno quatro meses depois.
 
 ### O que construí em 2026
